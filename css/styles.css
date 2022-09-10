@@ -1,0 +1,170 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+/*sections*/
+.white-section {
+    background-color: #fff;
+}
+
+.colorful-section {
+    color: #fff;
+    background-color: #ff4c68
+}
+
+/*first section*/
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+/*Navigation Bar*/
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/*Download Buttons*/
+
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/*title img*/
+
+.title-img {
+    transform: rotate(25deg);
+    right: 25%;
+    position: absolute;
+    width: 18.5%;
+}
+
+/*second section*/
+#features {
+    position: relative;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #ef8172
+
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+.sec-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+.sec-p {
+    color: #8f8f8f
+}
+
+/*testimonials section*/
+
+#testimonials {
+    color: #fff;
+    background-color: #ef8172
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.price-h3 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.testimonials-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%
+}
+/*press section*/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 50px 20px 50px;
+}
+
+/* pricing*/
+#pricing {
+    padding: 100px;
+}
+.price-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-colum {
+    padding: 3% 2%;
+
+}
+/*mobile and tablet section*/
+@media (max-width: 1028px) {
+
+    .text-line {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%
+    }
+
+}
+/*bottom section*/
+.cta-h3 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff
+
+}
+
+.the-icon{
+    margin: 20px 10px;
+}
